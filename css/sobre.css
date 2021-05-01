@@ -1,0 +1,260 @@
+* {
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f1f1;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+h1{
+    display: none;/*Some o h1 da tela, mas o leitor ainda lê*/
+}
+
+h2{
+    letter-spacing: 2px;
+    margin: 16px auto 48px auto;
+    border-bottom: 5px solid black;
+    display: inline-block;
+    padding: 8px;
+}
+
+h3{
+    margin: 12px 0 48px 0;
+    font-size: 1.3em;
+}
+
+.header-back{
+    /*ackground-color: rgb(22, 95, 145);*/
+    /*background-color: #1E90FF;*/
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-principal{
+    display: flex;
+    justify-content: space-between;/*Os itens mantêm distância*/
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-principal img{
+    max-width: 200px;
+    max-height: 60px;
+    margin: 8px;
+}
+
+.link-logo{
+    max-height: 80px;
+}
+
+.nav-lista{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;    
+}
+
+.nav-lista li{
+    margin: 0 20px 0 0;
+}
+
+.nav-lista a{
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    color: black;
+    font-weight: bold;
+    transition: all ease-in-out .4s;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.nav-lista a:hover{
+    background-color: #222;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.sobre{
+    margin: 118px 0 64px 0;
+    text-align: center;
+    background-color: #fefefe;
+    padding: 16px;
+}
+
+.projeto-flex{/*imagemProjeto/textoProjeto*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;/*Quando quebrar, a imagem se mantem centralizada*/
+}
+
+.projeto-flex img{
+    width: 49%;
+    max-height: 300px;
+    margin-right: 2%;
+    min-width: 344px;
+    max-width: 483px;
+    flex-grow: 1;/*Ocupa 1 de tamanho*/
+}
+
+.projeto-flex p{
+    width: 49%;
+    flex-grow: 1;/*Ocupa 1 de tamanho*/
+}
+
+.sobre li{
+    text-align: left;
+}
+
+.interior-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.interior-full img{
+    width: 100%;
+    max-width: 680px;
+}
+
+.interior-thumb{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.interior-thumb-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.interior-thumb img{
+    width: 49%;
+    max-width: 334px;
+    min-height: 221px;
+    max-height: 221px;
+}
+
+.interior-thumb img:nth-child(3){
+    max-height: 32px;
+}
+
+.interior-thumb img:nth-child(2n){/*Números multiplos de 2 (img - 2 e 4)*/
+    margin: 0 0 2% 1%;
+}
+
+.interior-thumb img:nth-child(2n-1){/*Números multiplos de 2 - 1 (img - 1 e 3)*/
+    margin: 0 0 2% 0;
+}
+
+.vantagens{
+    text-align: center;
+    background-color: #fefefe;
+    padding: 16px;
+}
+
+.vantagens h2{
+    margin: 16px auto 12px auto;
+}
+
+.vantagens p{
+    margin-bottom: 48px;
+}
+
+.vantagens ul, .vantagens li{
+    text-align: left;
+}
+
+.centro-flex-left{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px 0;
+}
+
+.centro-flex-left img{
+    width: 50%;
+    margin-right: 3%;
+    flex-grow: 1;
+}
+
+.centro-flex-left li{
+    width: 47%;
+    flex-grow: 1;
+}
+
+.centro-flex-right{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.centro-flex-right img{
+    width: 50%;
+    margin-left: 2%;
+    flex-grow: 1;
+}
+
+.centro-flex-right li{
+    flex-grow: 1;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    text-align: center;
+    background-color: #333;
+    border-bottom: 1px solid transparent;
+    margin-top: 8em;
+}
+
+.rodape h2{
+    color: white;
+    border-bottom: 3px solid #aaa;
+    display: inline-block;
+    padding: 8px;
+}
+
+.icones{
+    margin: 1em;
+}
+
+.icones a{
+    color: white;
+    transition: all linear .2s; 
+    font-size: 22px;
+}
+
+.icones a:hover{
+    color: #aaa;
+}
+
+.fab{
+    margin-right: .2em;
+}
+
+.copyText{
+    color: white;
+}
