@@ -5,22 +5,30 @@
     <title>Projeto AP Senac</title>
     <meta charset="utf-8">
     <meta name="author" content="Marcos Pedro">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles/style.css"> <!--link css-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e8491958a0.js" crossorigin="anonymous"></script><!--icones-->
 </head>
 
 <body>
-    <header class="header-back">
-        <div class="container">
-            <nav class="nav-principal">
-                <a href="index.html" class="link-logo"><img src="imgs/LogoBranco_Sem_Fundo.png" alt=""></a>
-                <h1>AP Senac</h1>
-                <ul class="nav-lista">
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="sobre.html">Sobre o Projeto</a></li>
-                    <li><a href="formulario.html">Contato</a></li>
+    <header class="bg-[#222]">
+        <div class="container mx-auto max-w-7xl">
+            <nav class="flex justify-between items-center">
+                <a href="index.html" class="link-logo">
+                    <img src="imgs/LogoBranco_Sem_Fundo.png" class="max-w-[200px] max-h-[60px] m-2" alt="logo">
+                </a>
+                <h1 class="sr-only">AP Senac</h1>
+                <ul class="flex gap-8">
+                    <li>
+                        <a href="index.html" class="text-white font-bold tracking-wider">Início</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html" class="text-white font-bold tracking-wider">Sobre o Projeto</a>
+                    </li>
+                    <li>
+                        <a href="formulario.html" class="text-white font-bold tracking-wider">Contato</a>
+                    </li>
                 </ul>
             </nav>
         </div>
