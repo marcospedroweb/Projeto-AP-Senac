@@ -8,7 +8,6 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #f1f1f1;
     line-height: 1.8;
-    font-size: 18px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -16,7 +15,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .menu-link {
-@apply text-white font-bold tracking-wider relative inline-block px-2 py-1;
+@apply relative inline-block px-2 py-1 font-bold tracking-wider text-white;
 @apply text-[#DCDCDC];
 @apply before:content-[''] before:absolute before:bottom-0 before:left-0;
 @apply before:w-full before:h-0.5;
