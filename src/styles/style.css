@@ -15,18 +15,16 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
 }
 
-
-.nav-lista a{
-    background-color: white;
-    padding: 8px;
-    border-radius: 5px;
-    border: 2px solid #333;
-    color: black;
-    font-weight: bold;
-    transition: all ease-in-out .4s;
-    letter-spacing: 1px;
-    box-sizing: border-box;
+.menu-link {
+@apply text-white font-bold tracking-wider relative inline-block px-2 py-1;
+@apply text-[#DCDCDC];
+@apply before:content-[''] before:absolute before:bottom-0 before:left-0;
+@apply before:w-full before:h-0.5;
+@apply before:bg-[#3DA661] before:scale-x-0 hover:before:scale-x-100;
+@apply before:origin-center before:transition-transform before:duration-300;
+@apply before:pointer-events-none;
 }
+
 
 .nav-lista a:hover{
     background-color: #222;
