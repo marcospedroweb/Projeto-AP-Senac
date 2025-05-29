@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta name="author" content="Marcos Pedro">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/src/styles/formulario.css"> <!--link css-->
+    <link rel="stylesheet" href="/src/styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/e8491958a0.js" crossorigin="anonymous"></script><!--icones-->
+    <script src="https://kit.fontawesome.com/e8491958a0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
                     <img src="/src/imgs/LogoBranco_Sem_Fundo.png" class="max-w-[200px] max-h-[60px] m-2" alt="logo">
                 </a>
                 <h1 class="sr-only">AP Senac</h1>
-                <ul class="flex gap-8">
+                <ul class="flex flex-col md:flex-row text-center gap-8">
                     <li>
                         <a href="/src/index.html" class="font-bold tracking-wider relative inline-block px-2 py-1 text-[#fff] before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC] before:scale-x-0 hover:before:scale-x-100 before:origin-center before:transition-transform before:duration-300 before:pointer-events-none">Início
                         </a>
@@ -28,7 +28,11 @@
                         <a href="/src/pages/sobre.html" class="font-bold tracking-wider relative inline-block px-2 py-1 text-[#fff] before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC] before:scale-x-0 hover:before:scale-x-100 before:origin-center before:transition-transform before:duration-300 before:pointer-events-none">Sobre o Projeto</a>
                     </li>
                     <li>
-                        <a href="/src/pages/formulario.html" class="font-bold tracking-wider relative inline-block px-2 py-1 text-[#fff] before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC] before:scale-x-0 hover:before:scale-x-100 before:origin-center before:transition-transform before:duration-300 before:pointer-events-none">Contato</a>
+                        <a href="/src/pages/formulario.html" class="font-bold tracking-wider relative inline-block px-2 py-1 text-[#fff] 
+                            before:content-[''] before:absolute before:bottom-0 before:left-0 
+                            before:w-full before:h-0.5 before:bg-[#DCDCDC] 
+                            before:scale-x-100 before:origin-center before:transition-transform 
+                            before:duration-300 before:pointer-events-none">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -37,7 +41,7 @@
     <main>
         <section class="bg-[#f1f1f1] py-14 mb-28">
             <div class="container max-w-5xl mx-auto px-4">
-                <h2 class="mb-8 text-2xl md:text-3xl block font-bold text-center relative pb-2 w-fit mx-auto before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC]">
+                <h2 class="mb-8 text-2xl md:text-3xl block font-bold text-center relative pb-2 w-fit mx-auto before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#222]">
                     Entre em contato conosco
                 </h2>
                 <form action="#" method="GET" class="bg-white p-6 rounded-lg space-y-6">
@@ -85,7 +89,8 @@
                     </div>
 
                     <div class="text-end">
-                        <input type="submit" value="Enviar" class="px-6 py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition duration-200 cursor-pointer" />
+                        <input type="submit" value="Enviar" class="bg-[#222] hover:bg-[#333] active:bg-[#111] focus:outline-none focus:ring-2 focus:ring-[#444] transition-all duration-200 py-3 px-4 rounded-lg text-white font-bold cursor-pointer" />
+
                     </div>
                 </form>
 
@@ -93,10 +98,12 @@
         </section>
     </main>
     <footer class="bg-[#222] pt-32">
-        <div class="container max-w-5xl mx-auto text-white">
+        <div class="container max-w-5xl mx-auto text-white px-4">
             <div class="flex flex-col md:flex-row justify-center items-center">
                 <div>
-                    <h2 class="mb-4 text-2xl relative pb-2 block w-fit mx-auto before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC]">Siga-nos</h2>
+                    <h2 class="mb-4 text-2xl relative pb-2 block w-fit mx-auto font-bold before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC]">
+                        Siga-nos
+                    </h2>
                     <div class="flex justify-center items-center gap-4">
                         <div class="flex flex-col md:flex-row gap-3">
                             <span><a href="#"><i class="fab fa-facebook-square text-2xl"></i>Facebook</a></span>
