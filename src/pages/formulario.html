@@ -1,88 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>AP Senac - Contato</title>
-        <meta charset="utf-8">
-        <meta name="author" content="Marcos Pedro">
-        <link rel="stylesheet" href="css/formulario.css"> <!--link css-->
-        <link rel="preconnect" href="https://fonts.gstatic.com"> <!--link fonte-->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"><!--link fonte-->
-        <script src="https://kit.fontawesome.com/e8491958a0.js" crossorigin="anonymous"></script><!--icones-->
-    </head>
-    <body>
-        <header class="header-back">
-            <div class="container">
-                <nav class="nav-principal">
-                    <a href="index.html" class="link-logo"><img src="Imagens/LogoBranco_Sem_Fundo.png" alt=""></a>
-                    <h1>AP Senac</h1>
-                    <ul class="nav-lista">
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="sobre.html">Sobre o Projeto</a></li>
-                        <li><a href="formulario.html">Contato</a></li>
-                    </ul>
-                </nav>
+
+<head>
+    <title>AP Senac - Contato</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Marcos Pedro">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/styles/formulario.css"> <!--link css-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e8491958a0.js" crossorigin="anonymous"></script><!--icones-->
+</head>
+
+<body>
+    <header class="header-back">
+        <div class="container">
+            <nav class="nav-principal">
+                <a href="index.html" class="link-logo"><img src="Imagens/LogoBranco_Sem_Fundo.png" alt=""></a>
+                <h1>AP Senac</h1>
+                <ul class="nav-lista">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre o Projeto</a></li>
+                    <li><a href="formulario.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="form-margin">
+            <div class="container container-flex">
+                <h2>Entre em contato conosco</h2>
+                <form action="#" method="GET" class="form-flex">
+                    <div class="flex-2-col nome-email">
+                        <div class="input-col">
+                            <label class="nome-input">Nome</label>
+                            <input type="text" placeholder="Seu nome" required>
+                        </div>
+                        <div class="input-col">
+                            <label class="email-input">Email</label>
+                            <input type="email" placeholder="Seu email" required>
+                        </div>
+                    </div>
+                    <div class="flex-2-col telefone-select">
+                        <div class="input-col">
+                            <label class="tel-input">Telefone</label>
+                            <input type="tel" placeholder="(XX) XXXXX-XXXX" required pattern="[0-9]+$">
+                        </div>
+                        <div class="input-col">
+                            <label>Responsável</label>
+                            <select name="responsa" required>
+                                <option value="">Selecione</option>
+                                <option value="1">Sou aluno(a) Senac</option>
+                                <option value="2">Sou resposável de aluno(a)</option>
+                                <option value="3">Outro</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="flex-1-col">
+                        <label for="msg">Mensagem</label>
+                        <textarea maxlength="100" id="msg" required></textarea>
+                    </div>
+                    <div class="flex-2-col space-between">
+                        <div class="input-row">
+                            <input type="checkbox" id="novidades">
+                            <label for="novidades">Quero receber novidades do projeto</label>
+                        </div>
+                        <div class="input-row">
+                            <input type="checkbox" id="integrante">
+                            <label for="integrante">Quero ser integrante do projeto</label>
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar">
+                </form>
             </div>
-        </header>
-        <main>
-            <section class="form-margin">
-                <div class="container container-flex">
-                    <h2>Entre em contato conosco</h2>
-                    <form action="#" method="GET" class="form-flex">
-                        <div class="flex-2-col nome-email">
-                            <div class="input-col">
-                                <label class="nome-input">Nome</label>
-                                <input type="text" placeholder="Seu nome" required>
-                            </div>
-                            <div class="input-col">
-                                <label class="email-input">Email</label>
-                                <input type="email" placeholder="Seu email" required>
-                            </div>
+        </section>
+    </main>
+    <footer class="bg-[#222] pt-32">
+        <div class="container max-w-5xl mx-auto text-white">
+            <div class="flex flex-col md:flex-row justify-center items-center">
+                <div>
+                    <h2 class="mb-4 text-2xl relative pb-2 w-fit mx-auto before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC]">Siga-nos</h2>
+                    <div class="flex justify-center items-center gap-4">
+                        <div class="flex flex-col md:flex-row gap-3">
+                            <span><a href="#"><i class="fab fa-facebook-square text-2xl"></i>Facebook</a></span>
+                            <span><a href="#"><i class="fab fa-instagram-square text-2xl"></i>Instagram</a></span>
                         </div>
-                        <div class="flex-2-col telefone-select">
-                            <div class="input-col">
-                                <label class="tel-input">Telefone</label>
-                                <input type="tel" placeholder="(XX) XXXXX-XXXX" required pattern="[0-9]+$">
-                            </div>
-                            <div class="input-col">
-                                <label>Responsável</label>
-                                <select name="responsa" required>
-                                    <option value="">Selecione</option>
-                                    <option value="1">Sou aluno(a) Senac</option>
-                                    <option value="2">Sou resposável de aluno(a)</option>
-                                    <option value="3">Outro</option>
-                                </select>
-                            </div>
+                        <div class="flex flex-col md:flex-row gap-3">
+                            <span><a href="#"><i class="fab fa-twitter text-2xl"></i>Twitter</a></span>
+                            <span><a href="#"><i class="fab fa-youtube text-2xl"></i>Youtube</a></span>
                         </div>
-                        <div class="flex-1-col">
-                            <label for="msg">Mensagem</label>
-                            <textarea maxlength="100" id="msg" required></textarea>
-                        </div>
-                        <div class="flex-2-col space-between">
-                            <div class="input-row">
-                                <input type="checkbox" id="novidades">
-                                <label for="novidades">Quero receber novidades do projeto</label>
-                            </div>
-                            <div class="input-row">
-                                <input type="checkbox" id="integrante">
-                                <label for="integrante">Quero ser integrante do projeto</label>
-                            </div>
-                        </div>
-                        <input type="submit" value="Enviar">
-                    </form>
+                    </div>
                 </div>
-            </section>
-        </main>
-        <footer class="rodape">
-            <div class="container">
-                <h2>Redes sociais</h2>
-                <div class="d-flex">
-                    <p class="icones"><a href=""><i class="fab fa-facebook-square"></i>Facebook</a></p>
-                    <p class="icones"><a href=""><i class="fab fa-instagram-square"></i>Instagram</a></p>
-                    <p class="icones"><a href=""><i class="fab fa-twitter"></i>Twitter</a></p>
-                    <p class="icones"><a href=""><i class="fab fa-youtube"></i>Youtube</a></p>
-                </div>
-                <p class="copyText">Copyright &copy; 2021</p>
             </div>
-        </footer>
-    </body>
+
+            <p class="text-center mt-32 pb-4">Copyright &copy; 2025</p>
+        </div>
+    </footer>
+</body>
+
 </html>

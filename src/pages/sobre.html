@@ -1,126 +1,165 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>AP Senac - Sobre o projeto</title>
-        <meta charset="utf-8">
-        <meta charset="utf-8">
-        <meta name="author" content="Marcos Pedro">
-        <link rel="stylesheet" href="css/sobre.css"> <!--link css-->
-        <link rel="preconnect" href="https://fonts.gstatic.com"> <!--link fonte-->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"><!--link fonte-->
-        <script src="https://kit.fontawesome.com/e8491958a0.js" crossorigin="anonymous"></script><!--icones--> 
-    </head>
-    <body>
-        <header class="header-back">
-            <div class="container">
-                <nav class="nav-principal">
-                    <a href="index.html" class="link-logo"><img src="Imagens/LogoBranco_Sem_Fundo.png" alt=""></a>
-                    <h1>AP Senac</h1>
-                    <ul class="nav-lista">
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="sobre.html">Sobre o Projeto</a></li>
-                        <li><a href="formulario.html">Contato</a></li>
-                    </ul>
-                </nav>
+
+<head>
+    <title>AP Senac - Sobre o projeto</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Marcos Pedro">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/styles/sobre.css"> <!--link css-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e8491958a0.js" crossorigin="anonymous"></script><!--icones-->
+</head>
+
+<body>
+    <header class="bg-[#222]">
+        <div class="container mx-auto max-w-7xl">
+            <nav class="flex flex-col items-center justify-center md:flex-row md:justify-between">
+                <a href="/src/index.html" class="link-logo">
+                    <img src="/src/imgs/LogoBranco_Sem_Fundo.png" class="max-w-[200px] max-h-[60px] m-2" alt="logo">
+                </a>
+                <h1 class="sr-only">AP Senac</h1>
+                <ul class="flex gap-8">
+                    <li>
+                        <a href="/src/index.html" class="font-bold tracking-wider relative inline-block px-2 py-1 text-[#fff] before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC] before:scale-x-0 hover:before:scale-x-100 before:origin-center before:transition-transform before:duration-300 before:pointer-events-none">Início
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/src/pages/sobre.html" class="font-bold tracking-wider relative inline-block px-2 py-1 text-[#fff] before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC] before:scale-x-0 hover:before:scale-x-100 before:origin-center before:transition-transform before:duration-300 before:pointer-events-none">Sobre o Projeto</a>
+                    </li>
+                    <li>
+                        <a href="/src/pages/formulario.html" class="font-bold tracking-wider relative inline-block px-2 py-1 text-[#fff] before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC] before:scale-x-0 hover:before:scale-x-100 before:origin-center before:transition-transform before:duration-300 before:pointer-events-none">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="bg-[#f1f1f1] py-14 mb-28">
+            <div class="container max-w-5xl mx-auto px-4">
+                <h2 class="mb-8 text-2xl md:text-3xl block font-bold text-center relative pb-2 w-fit mx-auto before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC]">
+                    Sobre o projeto
+                </h2>
+                <div class="flex flex-col md:flex-row gap-6 items-center">
+                    <img src="/src/imgs/image_index.jpg" alt="Imagem do projeto" class="w-full md:w-1/2 rounded shadow-md object-cover" />
+                    <div class="text-justify space-y-4 text-base md:text-lg">
+                        <p>
+                            O projeto está localizado em Santo Amaro, zona sul de São Paulo, em uma área de 154 mil m² com prédios modernos, integrados à natureza e à universidade.
+                        </p>
+                        <p>São 150 apartamentos de 42m².</p>
+                        <p>
+                            Aluguel mensal de R$550,00, exclusivo para <strong>alunos matriculados no SENAC</strong>.
+                        </p>
+                        <ul class="list-disc list-inside space-y-1">
+                            <li>Apartamentos mobiliados (cama, armários, fogão, geladeira e máquina de lavar)</li>
+                            <li>Internet e água incluídas no valor</li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
-        </header>
-        <main>
-            <section class="sobre">
-                <div class="container">
-                    <h2>Sobre o projeto</h2>
-                    <div class="projeto-flex">
-                        <img src="Imagens/imagem_projeto_900_631.jpg" alt="">
-                        <p>Está localizado numa área de 154 mil metros quadrados, em Santo Amaro, na região sul da cidade de São Paulo. Conta com prédios modernos,
-                        horizontalmente distribuídos em meio a um parque com muito verde e a
-                        universidade internamente nas suas dependências.</p>
-                    </div>
-                    <p>O empreendimento conta com 150 apartamentos de 42m</p>
-                    <p>Custo mensal do aluguel é de R$550,00, <b>moradores apenas alunos matriculados no SENAC</b></p>
-                    <ul>
-                        <li>Apartamento mobiliado (cama, armários, fogão, geladeira e máquina de lavar)</li>
-                        <li>Internet e Água estão inclusas no valor</li>
-                    </ul>
+        </section>
+        <section class="bg-[#222]">
+            <div class="container max-w-5xl mx-auto py-16 px-4">
+                <h2 class="mb-10 relative pb-2 text-2xl md:text-3xl font-bold block mx-auto text-white w-fit before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC]">
+                    Interior do apartamento
+                </h2>
+
+                <!-- Imagem destaque -->
+                <div class="mb-10">
+                    <img src="/src/imgs/Imagem_Interior4_900_600.jpg" alt="Imagem do interior" class="w-full rounded-md shadow-md object-cover" />
                 </div>
-            </section>
-            <section>
-                <div class="container interior-flex">
-                    <h2>Interior do apartamento</h2>
-                    <div class="interior-full">
-                        <img src="Imagens/Imagem_Interior4_900_600.jpg" alt="">
+
+                <!-- Grid de imagens -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <!-- Primeira linha -->
+                    <img src="/src/imgs/Imagem_Interior_900_631.jpg" alt="" class="w-full rounded-md object-cover" />
+                    <img src="/src/imgs/Imagem_Interior2_900_601.jpg" alt="" class="w-full rounded-md object-cover" />
+
+                    <!-- Linha com destaque da terceira imagem à esquerda, e duas empilhadas à direita -->
+                    <div class="sm:col-span-1">
+                        <img src="/src/imgs/Imagem_Interior3_667_800.jpg" alt="" class="w-full h-full rounded-md object-cover" />
                     </div>
-                    <div class="interior-thumb interior-thumb-flex">
-                        <div class="flex-2-col">
-                            <img src="Imagens/Imagem_Interior_900_631.jpg" alt="">
-                            <img src="Imagens/Imagem_Interior2_900_601.jpg" alt="">
-                        </div>
-                        <div class="flex-2-col">
-                            <img src="Imagens/Imagem_Interior3_667_800.jpg" alt="">
-                            <img src="Imagens/Imagem_Interior5_900_565.jpg" alt="">
-                        </div>
+                    <div class="flex flex-col gap-6">
+                        <img src="/src/imgs/Imagem_Interior5_900_565.jpg" alt="" class="w-full rounded-md object-cover" />
+                        <img src="/src/imgs/interior_ap.jpg" alt="" class="w-full rounded-md object-cover" />
                     </div>
                 </div>
-            </section>
-            <section class="vantagens">
-                <div class="container centraliza-texto">
-                    <h2>Vantagens</h2>
-                    <p>Ao ser morador do complexo residencial do Senac São Paulo, você tem acesso à:</p>
-                    <h3>Centro esportivo do SENAC</h3>
-                    <ul>
-                        <div class="centro-flex-left">
-                            <img src="Imagens/Imagem_centro2_900_600.jpg" alt="">
-                            <li>
-                                O Centro Esportivo conta com duas quadras poliesportivas cobertas para futebol de salão, basquetebol e voleibol com dimensões oficiais. Todas possuem piso emborrachado e placar eletrônico.
-                            </li>
-                        </div>
-                        <div class="centro-flex-right">
-                            <img src="Imagens/Imagem_centro1_900_600.jpg" alt="">
-                            <li>
-                                Além disso, possui uma quadra de squash, duas quadras de tênis também com piso emborrachado, dois campos de futebol 7 society com grama sintética aprovada pela Federação Internacional de Futebol e uma quadra poliesportiva externa sem cobertura.
-                            </li>
-                        </div>
-                        <div class="centro-flex-left">
-                            <img src="Imagens/Imagem_centro3_900_600.jpg" alt="">
-                            <li>
-                                A infraestrutura do Centro Esportivo dispõe de vestiário feminino e masculino, todos com armários e chuveiros aquecidos. Conta ainda com aparelhos de ferro para circuito, todo material necessário para a prática de atividades esportivas, como bolas, coletes, apitos e etc.
-                            </li>
-                        </div>
-                    </ul>
-                    <h3>Academia</h3>
-                    <ul>
-                        <div class="centro-flex-right">
-                            <img src="Imagens/Imagem_academia3_900_600.jpg" alt="">
-                            <li>
-                                Com área útil de 7.600 m² e acesso a pessoas com deficiência, a
-                                academia oferece modernidade e tecnologia de ponta em espaço arquitetonicamente planejado com ambientes amplos e integrados com conforto térmico/acústico imprescindível para a prática de atividades físicas.
-                            </li>
-                        </div>
-                        <div class="centro-flex-left">
-                            <img src="Imagens/Imagem_academia2_900_600.jpg" alt="">
-                            <li>
-                                Aulas de diferentes modalidades terrestres e aquáticas, para crianças, adolescentes e adultos. Mergulho, Natação, Hidroginástica, Deep Running, Acqua Bike e In Door, Boxe, Jiu Jitsu, Judô, Ritmos, Dança do Ventre, Yoga, Musculação, Aeróbico e Pilates.
-                            </li>
-                        </div>
-                        <div class="centro-flex-right">
-                            <img src="Imagens/Imagem_aluno_900_600.jpg" alt="">
-                            <li>
-                                Oferece descontos especiais aos moradores do complexo residencial do Senac São Paulo.
-                            </li>
-                        </div>
-                    </ul>
-                </div>
-            </section>
-        </main>
-        <footer class="rodape">
-            <div class="container">
-                <h2>Redes sociais</h2>
-                <div class="d-flex">
-                    <p class="icones"><a href=""><i class="fab fa-facebook-square"></i>Facebook</a></p>
-                    <p class="icones"><a href=""><i class="fab fa-instagram-square"></i>Instagram</a></p>
-                    <p class="icones"><a href=""><i class="fab fa-twitter"></i>Twitter</a></p>
-                    <p class="icones"><a href=""><i class="fab fa-youtube"></i>Youtube</a></p>
-                </div>
-                <p class="copyText">Copyright &copy; 2021</p>
+
             </div>
-        </footer>
-    </body>
+        </section>
+
+        <section class="vantagens">
+            <div class="container max-w-5xl mx-auto">
+                <h2>Vantagens</h2>
+                <p>Ao ser morador do complexo residencial do Senac São Paulo, você tem acesso à:</p>
+                <h3>Centro esportivo do SENAC</h3>
+                <ul>
+                    <div class="centro-flex-left">
+                        <img src="/src/imgs/Imagem_centro2_900_600.jpg" alt="">
+                        <li>
+                            O Centro Esportivo conta com duas quadras poliesportivas cobertas para futebol de salão, basquetebol e voleibol com dimensões oficiais. Todas possuem piso emborrachado e placar eletrônico.
+                        </li>
+                    </div>
+                    <div class="centro-flex-right">
+                        <img src="/src/imgs/Imagem_centro1_900_600.jpg" alt="">
+                        <li>
+                            Além disso, possui uma quadra de squash, duas quadras de tênis também com piso emborrachado, dois campos de futebol 7 society com grama sintética aprovada pela Federação Internacional de Futebol e uma quadra poliesportiva externa sem cobertura.
+                        </li>
+                    </div>
+                    <div class="centro-flex-left">
+                        <img src="/src/imgs/Imagem_centro3_900_600.jpg" alt="">
+                        <li>
+                            A infraestrutura do Centro Esportivo dispõe de vestiário feminino e masculino, todos com armários e chuveiros aquecidos. Conta ainda com aparelhos de ferro para circuito, todo material necessário para a prática de atividades esportivas, como bolas, coletes, apitos e etc.
+                        </li>
+                    </div>
+                </ul>
+                <h3>Academia</h3>
+                <ul>
+                    <div class="centro-flex-right">
+                        <img src="/src/imgs/Imagem_academia3_900_600.jpg" alt="">
+                        <li>
+                            Com área útil de 7.600 m² e acesso a pessoas com deficiência, a
+                            academia oferece modernidade e tecnologia de ponta em espaço arquitetonicamente planejado com ambientes amplos e integrados com conforto térmico/acústico imprescindível para a prática de atividades físicas.
+                        </li>
+                    </div>
+                    <div class="centro-flex-left">
+                        <img src="/src/imgs/Imagem_academia2_900_600.jpg" alt="">
+                        <li>
+                            Aulas de diferentes modalidades terrestres e aquáticas, para crianças, adolescentes e adultos. Mergulho, Natação, Hidroginástica, Deep Running, Acqua Bike e In Door, Boxe, Jiu Jitsu, Judô, Ritmos, Dança do Ventre, Yoga, Musculação, Aeróbico e Pilates.
+                        </li>
+                    </div>
+                    <div class="centro-flex-right">
+                        <img src="/src/imgs/Imagem_aluno_900_600.jpg" alt="">
+                        <li>
+                            Oferece descontos especiais aos moradores do complexo residencial do Senac São Paulo.
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#222] pt-32">
+        <div class="container max-w-5xl mx-auto text-white">
+            <div class="flex flex-col md:flex-row justify-center items-center">
+                <div>
+                    <h2 class="mb-4 text-2xl relative pb-2 w-fit mx-auto before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-full before:h-0.5 before:bg-[#DCDCDC]">Siga-nos</h2>
+                    <div class="flex justify-center items-center gap-4">
+                        <div class="flex flex-col md:flex-row gap-3">
+                            <span><a href="#"><i class="fab fa-facebook-square text-2xl"></i>Facebook</a></span>
+                            <span><a href="#"><i class="fab fa-instagram-square text-2xl"></i>Instagram</a></span>
+                        </div>
+                        <div class="flex flex-col md:flex-row gap-3">
+                            <span><a href="#"><i class="fab fa-twitter text-2xl"></i>Twitter</a></span>
+                            <span><a href="#"><i class="fab fa-youtube text-2xl"></i>Youtube</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-center mt-32 pb-4">Copyright &copy; 2025</p>
+        </div>
+    </footer>
+</body>
+
 </html>
