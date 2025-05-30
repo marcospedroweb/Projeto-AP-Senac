@@ -21,15 +21,4 @@ Este projeto foi originalmente desenvolvido durante o primeiro semestre da facul
   
 ## 🚀 Acesso ao Projeto
 
-:contentReference[oaicite:31]{index=31}:contentReference[oaicite:33]{index=33}
-
 [https://marcospedroweb.github.io/Projeto-AP-Senac/](https://marcospedroweb.github.io/Projeto-AP-Senac/)
-
-## 📝 Observações
-
-- :contentReference[oaicite:35]{index=35}
-- :contentReference[oaicite:38]{index=38}:contentReference[oaicite:40]{index=40}
-
----
-
-:contentReference[oaicite:42]{index=42}:contentReference[oaicite:44]{index=44}
