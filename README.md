@@ -5,7 +5,6 @@
 Este projeto foi originalmente desenvolvido durante o primeiro semestre da faculdade como parte de um exercício prático para aplicar conhecimentos em HTML e CSS. O objetivo era criar um site fictício para divulgar uma notícia sobre apartamentos destinados a alunos do Senac.
 
 ## 🔄 Reformulação (2025)
-
 Em 2025, o projeto passou por uma reformulação com os seguintes aprimoramentos:
 
 - **Atualização do Design:** Implementação de um novo design de interface do usuário (UI), mantendo a estrutura original, mas com alterações nas cores e layout para uma aparência mais moderna e atraente.
