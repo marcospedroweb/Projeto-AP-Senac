@@ -2,23 +2,30 @@
 
 ## 📘 Descrição
 
-Este projeto foi originalmente desenvolvido durante o primeiro semestre da faculdade como parte de um exercício prático para aplicar conhecimentos em HTML e CSS. O objetivo era criar um site fictício para divulgar uma notícia sobre apartamentos destinados a alunos do Senac.:contentReference[oaicite:6]{index=6}
+Este projeto foi originalmente desenvolvido durante o primeiro semestre da faculdade como parte de um exercício prático para aplicar conhecimentos em HTML e CSS. O objetivo era criar um site fictício para divulgar uma notícia sobre apartamentos destinados a alunos do Senac.
 
 ## 🔄 Reformulação (2025)
 
-:contentReference[oaicite:8]{index=8}:contentReference[oaicite:10]{index=10}
+Em 2025, o projeto passou por uma reformulação com os seguintes aprimoramentos:
 
-- **Atualização do Design:** :contentReference[oaicite:12]{index=12}
-- **Responsividade:** :contentReference[oaicite:15]{index=15}
-- **Integração do Tailwind CSS:** :contentReference[oaicite:18]{index=18}:contentReference[oaicite:20]{index=20}
+- **Atualização do Design:** Implementação de um novo design de interface do usuário (UI), mantendo a estrutura original, mas com alterações nas cores e layout para uma aparência mais moderna e atraente.
+- **Responsividade:** Adição de responsividade para garantir uma experiência de usuário consistente em dispositivos móveis.
+- **Integração do Tailwind CSS:** Utilização do framework Tailwind CSS para agilizar o desenvolvimento e facilitar a manutenção do estilo do site.
 
 ## 🛠️ Tecnologias Utilizadas
 
-- :contentReference[oaicite:22]{index=22}
+- HTML5
 - CSS3
-- :contentReference[oaicite:27]{index=27}:contentReference[oaicite:29]{index=29}
+- Tailwind CSS
 
-  
 ## 🚀 Acesso ao Projeto
 
+Você pode acessar o projeto hospedado no GitHub Pages através do seguinte link:
+
 [https://marcospedroweb.github.io/Projeto-AP-Senac/](https://marcospedroweb.github.io/Projeto-AP-Senac/)
+
+---
+
+Este projeto serve como uma base para aprimoramento contínuo das habilidades em desenvolvimento web e está aberto a sugestões e contribuições.
+
+
